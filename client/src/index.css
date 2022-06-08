@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cardWidth {
+    width: 380px;
+    height: 480px;
+}
+
+.textareaHeight {
+    min-height: 200px;
+}
+
+.singlePostWidthHeight {
+    max-width: 900px;
+    margin: 50px auto;
+    margin-bottom: 10px;
+}
+
+
+@media(max-width: 1280px) {
+    .cardWidth {
+        width: 450px;
+    }
+
+}
+
+@media(max-width: 1025px) {
+    .cardWidth {
+        width: 350px;
+        height: 450px;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .cardWidth {
+        width: 400px;
+
+    }
+
+}
+
+@media(max-width: 545px) {
+    .cardWidth {
+        width: 350px;
+    }
+
+}
+
+@media(max-width: 390px) {
+    .cardWidth {
+        width: 300px;
+    }
+
+}
+
+@media(max-width: 335px) {
+    .cardWidth {
+        width: 280px;
+        height: 480px;
+    }
+
+}
+
+
+
+.toppostHeight {
+    height: 600px;
+}
+
+.postContainerWidth {
+    max-width: 600px;
+    min-height: 400px;
+
+}
+
+
+/* profile container styles */
